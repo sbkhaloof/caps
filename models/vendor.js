@@ -2,12 +2,13 @@
 require('dotenv').config();
 const faker =require('faker');
 const events=require('../events');
+const store="1-206-flowers"
 
 
 setTimeout(()=>{
     //Create a fake order, as an object
     let customerOrder={
-        storeName:process.env.STORE,
+        storeName:store,
         orderId:faker.datatype.uuid(),
         customerName:faker.name.findName(),
         address:faker.address.streetAddress()
