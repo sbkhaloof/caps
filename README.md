@@ -3,7 +3,7 @@
 
 #### Author: siham khaloof
 
-- ##### [Pull Request](https://github.com/sbkhaloof/caps/pull/4)
+- ##### [Pull Request](https://github.com/sbkhaloof/caps/pull/7)
 
 
 
@@ -18,9 +18,9 @@
 
 ---
 
-###### Running the app:
+<!-- ###### Running the app:
 
-- #### `node caps.js` 
+- #### `node caps.js`  -->
 
 - #### Technical Requirements / Notes
   
@@ -38,7 +38,7 @@ Listen for the pickup event coming in from the CAPS server
 
 ---
 #### execute
-    > node caps.js
+    > node queue-hub.js
     > node driver.js
     > node vendor.js
 #### Tests
@@ -52,4 +52,4 @@ Lint Tests: `npm run lint`
 
 ![](caps-lab11.png)
 #### lab result
-![](result-lab12.PNG)
+![](lab13-result.PNG)

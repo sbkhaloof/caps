@@ -24,4 +24,3 @@ socket.on('deleverd',payload=>{
 })
 
 
-
